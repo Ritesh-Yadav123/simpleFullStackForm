@@ -1,0 +1,29 @@
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv environment files (if using)
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Database or sensitive credentials (if any)
+*.sql
+
+# Compiled files
+dist/
+build/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Optional: backup and temp files
+*.bak
+*.tmp
