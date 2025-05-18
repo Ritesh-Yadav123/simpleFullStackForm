@@ -26,4 +26,7 @@ app.post('/submit', (req, res) => {
 });
 
 
+const viewingRoute = require('./viewData')(db);
+app.use('/', viewingRoute);
+
 app.listen(2000);
